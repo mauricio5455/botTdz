@@ -115,18 +115,18 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Sedang di Prosess ⌛',
-				success: '✔️ Berhasil ✔️',
+				wait: '⌛ Aguarde um pouco.... ⌛',
+				success: '✔️ Concluído ✔️',
 				error: {
-					stick: '❌ Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
+					stick: '❌ Falha, ocorreu um erro ao converter a imagem em figurinha ❌',
 					Iv: '❌ Link tidak valid ❌'
 				},
 				only: {
-					group: '❌ Perintah ini hanya bisa di gunakan dalam group! ❌',
-					ownerG: '❌ Perintah ini hanya bisa di gunakan oleh owner group! ❌',
-					ownerB: '❌ Perintah ini hanya bisa di gunakan oleh owner bot! ❌',
-					admin: '❌ Perintah ini hanya bisa di gunakan oleh admin group! ❌',
-					Badmin: '❌ Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌'
+					group: '❌ Este comando só pode ser usado em grupos! ❌',
+					ownerG: '❌ Este comando só pode ser usado pelo dono do grupo! ❌',
+					ownerB: '❌ Este comando só pode ser usado pelo dono do bot ❌',
+					admin: '❌ Este comando só pode ser usado por administradores de grupo! ❌',
+					Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
 				}
 			}
 
