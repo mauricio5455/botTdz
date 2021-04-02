@@ -3,6 +3,7 @@ const help = (prefix) => {
 	*LINK DO CANAL:* https://www.youtube.com/msplay
 	\n\n
 	> *Comandos para figurinhas:* <
+
 Comando : *${prefix}sticker* ou *${prefix}stiker*
 Desc : converte imagem/gif/video para figurinha
 Uso : Responda imagem/gif/video, ou envie imagem/gif/video com a legenda\n
@@ -15,32 +16,18 @@ Uso : Responda o sticker\n
 Comando : *${prefix}tsticker* ou *${prefix}tstiker*
 Desc : Converte texto para figurinha
 Uso : *${prefix}tsticker Texto aqui*\n
-> *Comandos para memes* <
-Comando : *${prefix}meme*
-Desc : Imagem aleatória de meme [Em ingês]
-Uso : Apenas mande o comando\n
-Comando : *${prefix}memeindo*
-Desc : Imagem aleatória de memes [indo]
-Uso : Apenas mande o comando\n
+
 > *Outros comandos* <
+
 Comando : *${prefix}gtts*
 Desc : Converte texto para áudio falado
 Uso : *${prefix}gtts [cc] [text]*\nExemplo : *${prefix}gtts ja On2-chan*\n
-Comando : *${prefix}loli*
-Desc : Imagem aleatória de loli
-Uso : Apenas envie o comando\n
-Comando : *${prefix}nsfwloli*
-Desc : Imagem aleatória nsfw loli
-Uso : Apenas envie o comando\n
 Comando : *${prefix}url2img*
 Desc : Tira uma foto da web
 Uso : *${prefix}url2img [tipe] [url]*\n
 Comando : *${prefix}simi*
 Desc : Sua mensagem será respondida pelo simi
 Uso : *${prefix}simi sua mensagem*\n
-Comando : *${prefix}ocr*
-Desc : Transforma texto em imagem
-Uso : reply image, or send image with caption\n
 Comando : *${prefix}wait*
 Desc : Procura anime por imagem [ Que anime é esse/aquele]
 Uso : Responda a imagem ou envie na legenda\n
@@ -48,7 +35,9 @@ Comando : *${prefix}setprefix*
 Desc : Muda o prefixo
 Uso : *${prefix}setprefix [Texto|optional]*\nExemplo : *${prefix}setprefix ?*
 Nota : Este comando só pode ser usado pelo dono do bot\n
+
 > *Comandos para grupos* <
+
 Comando : *${prefix}add*
 Desc : Adciona um menbro ao grupo
 Uso : *${prefix}add 62813xxxxx*\n
